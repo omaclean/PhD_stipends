@@ -2,7 +2,6 @@
 stipend=rev(c(15609,15285,15009,14777,14553,14296,14057,13863,13726,13590,13590,13590))
 #inflation adjustment from Bank of England 
 infl_adj=rev(c(1000/1.042,1000,1015,1041,1076,1114,1134,1145,1172,1208,1246,1311)/1000)
-plot(stipend*infl_adj)
 
 #minimum wage in pence per hour
 min=c(608,619,631,650,670,720,750,783,821,872,891,950)
