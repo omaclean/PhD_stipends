@@ -1,9 +1,9 @@
-#ukri standard stipend- uses GDP deflator?
+#ukri standard stipend- uses GDP deflator? https://www.uea.ac.uk/research/research-with-us/postgraduate-research/latest-phds-and-research-studentships/postgraduate-research-fees-and-funding/stipends-and-fee-levels
 stipend=rev(c(15609,15285,15009,14777,14553,14296,14057,13863,13726,13590,13590,13590))
-#inflation adjustment from Bank of England 
+#inflation adjustment from Bank of England  #https://www.bankofengland.co.uk/monetary-policy/inflation/inflation-calculator
 infl_adj=rev(c(1000/1.042,1000,1015,1041,1076,1114,1134,1145,1172,1208,1246,1311)/1000)
 
-#minimum wage in pence per hour
+#minimum wage in pence per hour #https://www.nibusinessinfo.co.uk/content/national-minimum-wage-previous-rates
 min=c(608,619,631,650,670,720,750,783,821,872,891,950)
 hours=40
 
