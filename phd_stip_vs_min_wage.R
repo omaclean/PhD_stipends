@@ -1,6 +1,7 @@
 # #inflation adjustment from Bank of England  https://www.bankofengland.co.uk/monetary-policy/inflation/inflation-calculator
-# #https://www.contractorcalculator.co.uk/taxtables2009.aspx
-
+# #https://www.contractorcalculator.co.uk/taxtables2009.aspx  # tax rates - amongst others- NI may have slightly changed too- think some r pre-2010 rates may be 11 not 12%
+#https://www.whatdotheyknow.com/request/phd_stipend_rates_for_the_last_1
+#https://www.uea.ac.uk/research/research-with-us/postgraduate-research/latest-phds-and-research-studentships/postgraduate-research-fees-and-funding/stipends-and-fee-levels
 
 data=read.csv('Stipend.data.csv')
 hours=40
