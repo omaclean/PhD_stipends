@@ -1,8 +1,12 @@
+# #inflation adjustment from Bank of England  https://www.bankofengland.co.uk/monetary-policy/inflation/inflation-calculator
+# #https://www.contractorcalculator.co.uk/taxtables2009.aspx
+
 
 data=read.csv('Stipend.data.csv')
 hours=40
 
 data$min_gross=(data$min/100*hours*52)
+#20% tax over allowance 12 NI over threshold
 data$min_takehome=sapply(1:length(data$min),function(i) data$min_gross[i]-max(c(0,data$min_gross[i]-data$personal_allow[i]))*0.2-
                       max(c(0,data$min_gross[i]-data$NI_thresh[i]*52))*0.12)
 par(mfrow=c(2,1))
