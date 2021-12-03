@@ -1,5 +1,6 @@
 
 data=read.csv('Stipend.data.csv')
+hours=40
 
 data$min_gross=(data$min/100*hours*52)
 data$min_takehome=sapply(1:length(data$min),function(i) data$min_gross[i]-max(c(0,data$min_gross[i]-data$personal_allow[i]))*0.2-
